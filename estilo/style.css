@@ -82,6 +82,9 @@
 
     border: 2px solid white;
 }
+.hamburger-menu {
+    display: none;
+}
 
 
 
@@ -218,4 +221,50 @@
 #img-card-8 {
     background-image: url(/images/desktop/image-fisheye.jpg);
     background-size: cover;
+}
+
+
+/* footer *************/
+
+
+footer {
+    width: 100%;
+    height: 120px;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.7rem;
+    font-family: Roboto-Regular;
+
+    padding: 25px 180px;
+}
+.footer-conteiner-1{
+    font-size: 1rem;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list li {
+    margin: 5px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.footer-conteiner-2 {
+    font-size: 0.5rem;
+
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+
+    color: grey;
+}
+.footer-icons img {
+    margin-left: 20px;
+    cursor: pointer;
 }
