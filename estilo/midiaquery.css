@@ -35,4 +35,51 @@
         display: block;
         cursor: pointer;
     }
+
+
+    .interactive-conteiner {
+        width: 721px;
+        height: 1100px;
+        margin: 185px 10px 0px 10px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding: 0px;
+    }
+    .interactive-text {
+        padding: 0px;
+        text-align: center;
+        margin-bottom: 100px;
+        line-height: 1.5;
+    }
+    .interactive-text h1 {
+        padding: 50px 50px 0px 50px;
+        font-size: 3.6rem;
+    }
+    .interactive-text p {
+        font-size: 2rem;
+    }
+    .interactive-text {
+        position: static;
+    }
+    .creations-title-buttom {
+        padding: 0px;
+    }
+    .creations-title-buttom button {
+        display: none;
+    }
+    .creations-title-buttom h1 {
+        font-size: 3.5rem;
+        margin: auto;
+    }
+
+
+
+
+    .cards-creations {
+        width: 370px;
+        height: 210px;
+    }
 }    

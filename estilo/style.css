@@ -107,9 +107,13 @@
     font-size: 2.5rem;
     text-transform: uppercase;
 }
+.interactive-conteiner p {
+    color: grey;
+}
 .interactive-conteiner img {
     width: 650px;
 }
+
 .interactive-text {
     width: 593px;
     height: 400px;
