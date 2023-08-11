@@ -77,9 +77,42 @@
 
 
 
+    .creations-cards {
+        height: 2030px;
 
+        padding: 0px;
+
+        text-align: end;
+    }
     .cards-creations {
-        width: 370px;
+        width: 640px;
         height: 210px;
+    }
+    .cards-creations h1 {
+        padding: 0px;
+        
+    }
+    .cards-creations img {
+        object-fit: contain;
+    }
+    .button-smarthphone {
+        
+        width: 100px;
+
+        display: block;
+
+        width: 100px;
+
+        font-weight: 300;
+        text-transform: uppercase;
+
+        padding: 5px 10px;
+        border: 0.5px solid black;
+    }
+
+
+
+    footer {
+        height: 1000px;
     }
 }    
