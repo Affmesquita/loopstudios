@@ -30,8 +30,6 @@
 }
 
 
-
-
 .banner {
     width: 100%;
     height: 600px;
@@ -158,6 +156,11 @@
     padding: 5px 10px;
     border: 0.5px solid black;
 }
+.creations-title-buttom button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 .creations-cards {
     width: 100%;
     height: 1000px;
@@ -167,7 +170,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .cards-creations {
     width: 210px;
     height: 370px;
@@ -192,8 +194,6 @@
     padding: 18px;
 
     color: white;
-
-    
 }
 .button-smarthphone {
     display: none;
@@ -231,7 +231,10 @@
     background-image: url(/images/desktop/image-fisheye.jpg);
     background-size: cover;
 }
-
+.cards-creations:hover {
+    opacity: 0.5;
+    background-color: white;
+}
 
 /* footer *************/
 
@@ -262,6 +265,10 @@ footer {
     margin: 5px;
     cursor: pointer;
     padding-top: 5px;
+    box-sizing: border-box;
+}
+.footer-list li:hover {
+    border-bottom: 1px solid white;
 }
 .footer-conteiner-2 {
     font-size: 0.5rem;
@@ -274,6 +281,10 @@ footer {
     color: grey;
 }
 .footer-icons img {
-    margin-left: 20px;
+    padding: 5px;
     cursor: pointer;
+    box-sizing: border-box;
+}
+.footer-icons img:hover {
+    border-bottom: 1px solid white;
 }
