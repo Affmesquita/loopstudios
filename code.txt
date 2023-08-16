@@ -2,3 +2,12 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Affonso Mesquita</a>.
   </div>
+
+
+  const hamburgerMenu = document.querySelector('.hamburger-menu');
+  const bannerList = document.querySelector('.banner-list');
+
+  hamburgerMenu.addEventListener('click', () => {
+    bannerList.classList.toggle('show');
+  });
+

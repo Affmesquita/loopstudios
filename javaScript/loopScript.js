@@ -1,12 +1,13 @@
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const bannerList = document.querySelector('.banner-list');
+const closeNav = document.querySelector('.close-nav');
 
 hamburgerMenu.addEventListener('click', () => {
-    bannerList.classList.toggle('show');
+    bannerList.classList.add('show');
+    closeNav.style.display = 'block';
 });
 
-window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) {
-        bannerList.classList.remove('show');
-    }
+closeNav.addEventListener('click', () => {
+    bannerList.classList.remove('show');
+    closeNav.style.display = 'none';
 });
